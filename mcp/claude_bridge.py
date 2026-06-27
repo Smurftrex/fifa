@@ -27,7 +27,7 @@ class ClaudeBridge:
                     You have access to these MCP tools:
                     {tools_description}
 
-                    Help answer questions about World Cup 2026 using these tools.
+                    help answer questions about World Cup 2026 using these tools.
                     Be conversational and helpful""",
                     "messages": [
                         {"role": "user", "content": question}
