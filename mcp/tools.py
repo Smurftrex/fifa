@@ -1,4 +1,5 @@
 import json
+from mcp.server import fifaclient
 
 class ToolHandler:
     def __init__(self, client):

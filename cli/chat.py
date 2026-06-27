@@ -1,5 +1,5 @@
 import asyncio
-from mcp.client import fifaclient
+from mcp.server import fifaclient
 from mcp.claude_bridge import claudebridge
 
 class ChatInterface:

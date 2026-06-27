@@ -2,6 +2,7 @@ import requests
 import json
 from config.settings import ANTHROPIC_API_KEY
 from mcp.tools import ToolHandler
+from mcp.server import fifaclient
 
 class ClaudeBridge:
     def __init__(self, client):
